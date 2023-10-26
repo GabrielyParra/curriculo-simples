@@ -1,0 +1,9 @@
+configurando o Git
+git config --global user.name GabrielyParra
+git config --global user.name gabufparra7@gmail.com
+git clone 
+
+Salvando git 
+git add .
+git commit -m "inicio dos códigos da página inicial"
+git push
