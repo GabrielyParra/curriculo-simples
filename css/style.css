@@ -1,11 +1,32 @@
-section {
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(18, 18, 18)
+ }
 
-}
+ body {
+     background-color: rgb(233, 233, 233);
+ }
 
-#left {
+ ul {
+     list-style: none;
+ }
 
-}
+ main {
+     margin: 1rem;
+     /* 16px */
+     display: grid;
+     grid-template-columns: 30% 1fr;
+     grid-gap: 1rem;
+ }
 
-.left {
-    
-}
+ @media (max-width:880px) {
+     main {
+         grid-template-columns: 1fr;
+     }
+
+ }
